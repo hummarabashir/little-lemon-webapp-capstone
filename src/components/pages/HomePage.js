@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import Specials from '../sections/Specials/Specials';
+import Testimonials from "../sections/Testimonials/Testimonials";
+import About from "../sections/About/About";
+
 export default function Homepage() {
   return (
     <>
@@ -18,6 +22,9 @@ export default function Homepage() {
               </section>
           </article>
       </header>
+      <Specials />
+      <Testimonials />
+      <About />
     </>
   );
 }
