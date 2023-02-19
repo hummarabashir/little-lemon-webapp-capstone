@@ -1,15 +1,27 @@
 /* TESTIMONIAL CARDS */
 .testimonials {
-    padding: 0 5rem 2rem 5rem;
+    padding: 1rem 5rem 4rem 5rem;
     animation-duration: 0.33s;
     animation-timing-function: ease-in-out;
     animation-name: slideDownFade;
+    background-color: #495e57;
+  }
+  .testimonials-details {
+    font-family: 'Markazi Text', serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: capitalize;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    margin: 0em 0em 1.5em 0em;
   }
   
   .testimonials-topbar > h1 {
     text-align: center;
-    font-size: 3rem;
-    margin: 4rem 0 1rem 0;
+    font-size: 4rem;
+    margin: 2rem 0 1rem 0;
+    color: #f4ce14;
   }
   
   .testimonials-cards {
@@ -26,9 +38,11 @@
   }
   
   .testimonial-card > img {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     object-fit: contain;
+    border-radius: 50%;
+    background-color: #fff;
   }
   
   .testimonials-carousel {
@@ -38,7 +52,22 @@
   .specials-carousel {
     margin: 0 2rem 0 2rem;
   }
+  .testimonials-stars{
+    margin: 0.5rem 0;
+    display: flex;
+  }
 
+  .testimonials-stars img{
+    width: 10px;
+    height: 10px;
+}
+
+  @media (min-width: 768px){
+  .testimonials-stars img{
+      width: 20px;
+      height: 20px;
+  }
+}
 
   /* MEDIA QUERIES*/
 @media screen and (max-width: 60rem) {

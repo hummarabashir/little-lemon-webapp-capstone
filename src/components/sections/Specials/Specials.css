@@ -1,7 +1,7 @@
 /* SPECIALS */
 .specials {
     height: 100%;
-    padding: 8rem 2rem;
+    padding: 6rem 2rem;
   }
   
   .specials-header {
@@ -12,24 +12,25 @@
   .specials-title {
     font-weight: 500;
     font-size: 30px;
-    color: #333;
+    color: #495e57;
     margin-bottom: 1rem;
   }
   
   .menu-button {
     font-family: 'Karla', sans-serif;
     font-weight: 800;
-    background-color: #fbdabb;
-    color: #333;
+    background-color: #495e57;
+    color: #f4ce14;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     width: 200px;
+    font-size: 1em;
     border: none;
   }
   
   @media (min-width: 768px) {
     .specials {
-      padding: 4rem 4rem;
+      padding: 1rem 1rem;
     }
   
     .specials-title {
@@ -39,8 +40,8 @@
   
   @media (min-width: 1024px) {
     .specials {
-      height: 100vh;
-      padding: 6rem 6rem;
+      /* height: 100vh; */
+      padding: 4rem 4rem;
     }
   
     .specials-header {
@@ -70,15 +71,15 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 250px;
     background-color: #d9d9d9;
-    margin: 25px 5px;
+    margin: 25px 5px 25px 0px;
     border-radius: 1rem 1rem 0 0;
     color: #333;
   }
   
   .specials-image-container {
-    width: 280px;
+    width: 250px;
     overflow: hidden;
     border-radius: 1rem 1rem 0 0;
   }
@@ -102,8 +103,8 @@
   }
   
   .specials-description {
-    height: 160px;
-    padding: 30px 0;
+    height: 110px;
+    padding: 10px 0;
   }
   
   .specials-delivery {
@@ -115,7 +116,7 @@
   @media (min-width: 768px) {
     .card-list {
       grid-template-columns: repeat(3, 1fr);
-      display: flex;
+      display: grid;
       justify-content: space-between;
     }
   }
