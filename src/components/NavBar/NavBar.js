@@ -46,7 +46,7 @@ const NavBar = () => {
 
   return (
     <>
-      <header ref={navRef}>
+      <header>
         <nav className='nav-container'>
           <LinkS
             to='hero'
@@ -85,6 +85,18 @@ const NavBar = () => {
        </li>
        <li key="3">
        <LinkS
+         to="reservation"
+         smooth
+         duration={550}
+         onClick={handleClick}
+         aria-label='On Click'
+         className='nav-links'
+       >
+         reservation
+       </LinkS>
+       </li>
+       <li key="4">
+       <LinkS
          to="testimonials"
          smooth
          duration={550}
@@ -95,7 +107,7 @@ const NavBar = () => {
          testimonials
        </LinkS>
        </li>
-       <li key="4">
+       <li key="5">
        <LinkS
          to="contact"
          smooth
