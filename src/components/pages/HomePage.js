@@ -14,7 +14,7 @@ export default function Homepage() {
                   <p className="subsection">We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus
                   on traditional recipes served with a modern twist.</p>
                   <br></br>
-                  <Link className="action-button" to="/reservations">Reserve a table</Link>
+                  <Link className="action-button" to="/booking">Reserve a table</Link>
               </section>
 
               <section className="hero-image">
