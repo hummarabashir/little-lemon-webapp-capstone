@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+
 export default function Footer() {
   return (
     <footer>
@@ -48,29 +50,40 @@ export default function Footer() {
           <h1 className="footer-header">Connect</h1>
           <ul className="footer-links">
             <a
-              href="https://www.facebook.com/thelittlelemonshop/"
+              href="https://www.facebook.com/thelittlelemon/"
               target="_blank"
               rel="noreferrer"
             >
-              Facebook
+              <FaFacebook size={20} />
             </a>
             <a
-              href="https://www.instagram.com/littlelemonmoon/"
+              href="https://www.instagram.com/thelittlelemon/"
               target="_blank"
               rel="noreferrer"
             >
-              Instagram
+              <FaInstagram size={20} />
             </a>
             <a
-              href="https://www.youtube.com/watch?v=3Li-FfypZYE"
+              href="https://www.twitter.com/thelittlelemon/"
               target="_blank"
               rel="noreferrer"
             >
-              Join us!
+              <FaTwitter size={20} />
+            </a>
+            <a
+              href="/contact"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Join Us!
             </a>
           </ul>
         </li>
       </menu>
+      <p className='copyright'>
+        &copy; Copyright {new Date().getFullYear()}{' '}
+          Hummara Bashir
+      </p>
     </footer>
   );
 }
