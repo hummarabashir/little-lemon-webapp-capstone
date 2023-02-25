@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR} from "react-router-dom";
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { FaTimes } from 'react-icons/fa';
 import './NavBar.styles.css';
@@ -48,15 +49,11 @@ const NavBar = () => {
     <>
       <header>
         <nav className='nav-container'>
-          <LinkS
-            to='hero'
-            smooth
-            duration={550}
-            onClick={handleClick}
-            aria-label='On Click'
+          <LinkR
+            to='/'
           >
             <img src='./Logo.svg' alt='logo' className='logo' />
-          </LinkS>
+          </LinkR>
 
           <ul className='nav-links-container'>
           <li key="1">
@@ -84,16 +81,12 @@ const NavBar = () => {
        </LinkS>
        </li>
        <li key="3">
-       <LinkS
-         to="reservation"
-         smooth
-         duration={550}
-         onClick={handleClick}
-         aria-label='On Click'
+       <LinkR
+         to="/booking"
          className='nav-links'
        >
          reservation
-       </LinkS>
+       </LinkR>
        </li>
        <li key="4">
        <LinkS

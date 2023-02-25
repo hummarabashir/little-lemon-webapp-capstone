@@ -4,13 +4,14 @@ import Homepage from "./pages/HomePage";
 import Reservation from "./pages/Booking";
 // import Order from "./pages/Order";
 // import Login from "./pages/Login";
-// import Confirmation from "./pages/Confirmation";
+import Confirmation from "./pages/BookingConfirmation";
 
 export default function Routing() {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/booking" element={<Reservation />} />
+      <Route path="/confirmed" element={<Confirmation />} />
 
       {/* <Route path="/about" element={<About />} />
 

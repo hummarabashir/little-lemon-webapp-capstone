@@ -343,9 +343,11 @@ footer {
 footer > menu {
   grid-template-columns: repeat(4, 1fr);
 }
-
+footer > menu > li {
+  padding: 1em;
+}
 .footer-header {
-  margin-bottom: -1.25rem;
+  margin-bottom: -0.8rem;
 }
 
 .footer-links {

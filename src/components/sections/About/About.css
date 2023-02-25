@@ -3,9 +3,9 @@
     /* background-color: #f4ce14; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 1.25rem 5rem 2.5rem 5rem;
-    min-height: 22rem;
-    margin-bottom: -1rem;
+    padding: 3rem 5rem 3rem 5rem;
+    min-height: 28rem;
+    margin-bottom: 2rem;
     grid-gap: 25vw;
   }
   

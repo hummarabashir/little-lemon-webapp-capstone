@@ -37,7 +37,7 @@ header {
   cursor: pointer;
   font-size: 1.5em;
   font-weight: bolder;
-  color: #495e57;
+  color: #495e57 !important;
 }
 
 .nav-links:hover {

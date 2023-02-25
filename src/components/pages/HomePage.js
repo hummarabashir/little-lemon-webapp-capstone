@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 import Specials from '../sections/Specials/Specials';
 import Testimonials from "../sections/Testimonials/Testimonials";
 import About from "../sections/About/About";
+import NavBar from "../../components/NavBar/NavBar";
+
 
 export default function Homepage() {
   return (
     <>
+    <NavBar />
       <header>
           <article className="call-to-action">
               <section className="hero-text">

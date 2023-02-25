@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import './Bookingstyle.css';
 import { submitAPI } from '../../utils/temp';
 import { useNavigate } from 'react-router-dom';
-// import { Link as LinkR } from 'react-router-dom';
-// import home from '../../assets/booking/home.svg';
+import { Link as LinkR } from 'react-router-dom';
+import home from '../../assets/booking/home.svg';
 
 export default function BookingForm({ availableTimes, dispatch }) {
     const navigate = useNavigate();
@@ -55,8 +55,12 @@ export default function BookingForm({ availableTimes, dispatch }) {
     };
     return (
     <section name='reservations' className='booking-form'>
+      <LinkR to='/'>
+        <img src={home} alt='home' className='booking-home' />
+      </LinkR>
         <div className='bookings-container'>
-            <h1>Reserve a Table</h1>
+        <img src='./Logo.svg' alt='logo' className='booking-logo' />
+            <h2 className='booking-header'>Reserve a Table</h2>
             <form
           className='form-container'
           onSubmit={handleSubmit}
