@@ -1,15 +1,16 @@
 .booking-form {
-    height: 100vh;
-    background-color: #495e57;
-    padding: 3rem 2rem;
+    /* height: 100vh; */
+    /* background-color: #495e57; */
+    padding: 1rem 3rem 5rem 3rem;
     font-family: 'Karla', sans-serif;
-    color: #edefee;
+    color: #495e57;
   }
-  
+  *, *::before, *::after {
+    box-sizing: border-box;
+}
   .bookings-container {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
     align-items: center;
     justify-content: center;
   }
@@ -28,6 +29,11 @@
     top: 0;
     left: 0;
     margin: 1rem;
+    background-color: #495e57;
+  }
+  .booking-logo{
+    width: 20%;
+    margin: 1rem 0;
   }
   
   .booking-home:hover {
@@ -68,8 +74,8 @@
   }
   
   .booking-button {
-    font-size: 14px;
-    width: 200px;
+    font-size: 17px;
+    width: 250px;
     margin: 0 auto;
     padding: 1rem 0.5rem;
     font-weight: 800;
@@ -119,7 +125,7 @@
     }
   
     .booking-button {
-      width: 250px;
+      width: 400px;
       font-size: 16px;
     }
   }

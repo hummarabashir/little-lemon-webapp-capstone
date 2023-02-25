@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
@@ -12,21 +12,9 @@ export default function Footer() {
           ></img>
         </li>
         <li className="contact">
-          <h1 className="footer-header">Navigation</h1>
-          <ul className="footer-links">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <a
-              href={require("../assets/menu.webp")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Menu
-            </a>
-            <Link to="/reservations">Reservations</Link>
-            <Link to="/order">Order</Link>
-            <Link to="/login">Login</Link>
-          </ul>
+          <h1 className="footer-header">Little Lemon</h1>
+          <h2>Chicago</h2>
+          <p>We are a family owned Mediterranean restaurant, located on Maldove Street in Chicago, Illionis.</p>
         </li>
 
         <li>
