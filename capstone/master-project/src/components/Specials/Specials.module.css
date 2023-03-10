@@ -1,0 +1,92 @@
+.specials{
+    max-width: 858px;
+    margin: 87px auto 0 auto;
+}
+
+.sub_heading{
+display: flex;
+justify-content: space-between;
+}
+.sub_heading h3{
+font-family: 'Karla';
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.food_card__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.food_card{
+height: 439px;
+width: 264px;
+background-color: #EDEFEE;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+border-radius: 16px;
+margin: 10px;
+}
+.food_card img{
+    height: 220px;
+    object-fit: fill;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.menu_card_content{
+    padding: 20px;
+}
+.menu_card_content div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.menu_card_content h3{
+font-family: 'Markazi';
+font-size: 24px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.menu_card_content h4{
+font-family: 'Karla';
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #EE9972;
+}
+.special_button{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.special_button p{
+font-family: 'Karla';
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 20px;
+
+}
+.special_button img{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .specials{
+        margin-right:10px;
+        margin-left:10px;
+    }
+
+}

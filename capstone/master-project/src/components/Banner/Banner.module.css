@@ -1,0 +1,76 @@
+.banner{
+    height: 406px;
+    background-color: #495E57;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.banner__left{
+    max-width: 422px;
+    margin-top: 47px;
+    color: #fff;
+    margin-left: 30px;
+}
+.banner__left h2{
+font-size: 56px;
+font-weight: 500;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #f4ce14;
+}
+.banner__left h4{
+font-size: 32px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+}
+.banner__left p{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+.banner__left button{
+    margin-top: 60px;
+}
+.hero{
+    z-index: 3;
+    margin-top: 47px;
+    width: 375px;
+    height: 410px;
+    object-fit: fill;
+    border-radius: 16px;
+}
+@media only screen and (min-width: 1300px) {
+    .banner{
+       padding: 0 290px;
+    justify-content: space-around;
+
+    }
+}
+@media only screen and (max-width: 900px) {
+.banner{
+    height: auto;
+}
+.hero{
+    z-index: 0;
+    margin-top: 47px;
+    width: 275px;
+    height: 310px;
+}
+ }
+ @media only screen and (max-width: 600px) {
+    .hero{
+        margin-top: 47px;
+        width: 175px;
+        height: 210px;
+    }
+   }
+   @media only screen and (max-width: 500px) {
+    .hero{
+      display: none;
+    }
+   }

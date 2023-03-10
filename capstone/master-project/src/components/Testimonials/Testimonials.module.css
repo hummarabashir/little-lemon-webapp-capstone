@@ -1,0 +1,58 @@
+.testimonials{
+    margin: 40px 60px;
+}
+.testimonials h2{
+font-family: 'Markazi';
+font-size: 36px;
+font-weight: 500;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 10px;
+}
+.testimonials div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* testimonials card */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+height: auto;
+margin: 20px;
+}
+.rating{
+    height: 20px;
+}
+.profile_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.profile_box p{
+    font-family: 'Karla';
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.profile_pic{
+    width: 60px;
+}
+.comment{
+    font-family: 'Karla';
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 10px;
+
+}

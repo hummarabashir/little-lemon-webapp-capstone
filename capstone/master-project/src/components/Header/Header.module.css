@@ -1,0 +1,32 @@
+.header{
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    top:0;
+    padding: 10px;
+}
+ .container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    max-width: 870px;
+ }
+.logo{
+    max-height: 4rem;
+    margin-right: 45px;
+}
+@media only screen and (max-width: 900px) {
+    .header{
+        height: auto;
+    }
+    .container{
+       flex-direction: column;
+       justify-content: center;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+
+}
