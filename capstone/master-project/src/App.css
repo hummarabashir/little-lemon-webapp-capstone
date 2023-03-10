@@ -1,0 +1,22 @@
+*{
+  font-family: "Markazi Text", "Karla", serif;
+  scroll-behavior: smooth;
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+main{
+  margin-top: 120px;
+}
+
+@media only screen and (max-width:  870px) {
+  main{
+    margin-top: 350px;
+  }
+
+}
