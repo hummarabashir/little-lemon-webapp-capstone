@@ -1,14 +1,14 @@
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/HomePage";
 import Reservation from "./pages/Booking";
 import Confirmation from "./pages/BookingConfirmation";
 
 export default function Routing() {
   return (
-    <HashRouter>
-      <Route path="/little-lemon-webapp-capstone" exact element={<Homepage />} />
+    <Routes>
+      <Route path="/" element={<Homepage />} />
       <Route path="/booking" element={<Reservation />} />
       <Route path="/confirmed" element={<Confirmation />} />
-    </HashRouter>
+    </Routes>
   );
 }
